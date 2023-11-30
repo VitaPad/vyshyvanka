@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vyshynanky</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!--Morern Normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <!--Our stylesheet-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- MOBILE MENU -->
+    <div class="mobile">
+      <div class="mobile-menu">
+        <!-- MOBILE CLOSE BUTTON -->
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-btn-icon" width="36" height="36">
+            <use href="./img/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <!-- MOBILE CONTACTS -->
+        <address class="mobile-menu-address">
+          <a
+            href="tel:+380684439426"
+            class="mobile-menu-address-link"
+            target="_blank"
+            >+380 (68) 443-94-26</a
+          >
+        </address>
+
+        <!-- MOBILE NAV -->
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-item">
+            <a href="#about" class="mobile-menu-list-item-link" target="_blank"
+              >About us</a
+            >
+          </li>
+          <li class="mobile-menu-list-item">
+            <a
+              href="#collection"
+              class="mobile-menu-list-item-link"
+              target="_blank"
+              >Our collection
+            </a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="#order" class="mobile-menu-list-item-link" target="_blank"
+              >Customer order</a
+            >
+          </li>
+          <li class="mobile-menu-list-item">
+            <a
+              href="#testimonials"
+              class="mobile-menu-list-item-link"
+              target="_blank"
+              >TEstimonials</a
+            >
+          </li>
+        </ul>
+        <div class="mobile-menu-image"></div>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container container">
+        <!-- NAVIGATION -->
+        <nav class="header-nav">
+          <!-- LOGO -->
+          <a href="./index.html" class="header-nav-logo" target="_blank">
+            <img
+              class="header-logo-img"
+              src="./images/logo.svg"
+              alt="logo"
+              width="44"
+              height="39"
+            />
+          </a>
+
+          <!-- NAV MENU -->
+          <div class="header-nav-menu">
+            <ul class="header-nav-list">
+              <li class="header-nav-list-item">
+                <a href="#about" class="header-nav-list-item-link">About us</a>
+              </li>
+              <li class="header-nav-list-item">
+                <a href="#collection" class="header-nav-list-item-link"
+                  >Our collection
+                </a>
+              </li>
+              <li class="header-nav-list-item">
+                <a href="#order" class="header-nav-list-item-link"
+                  >Customer order</a
+                >
+              </li>
+              <li class="header-nav-list-item">
+                <a href="#testimonials" class="header-nav-list-item-link"
+                  >TEstimonials</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header-contacts">
+          <!-- CONTACTS -->
+          <address class="header-address">
+            <a
+              href="tel:+380684439426"
+              class="header-address-link"
+              target="_blank"
+              >+380 (68) 443-94-26</a
+            >
+          </address>
+          <!-- SOCIAL NETWORKS -->
+          <div class="header-social">
+            <ul class="header-social-list">
+              <li class="header-social-list-item">
+                <a
+                  href="https://www.facebook.com/goITclub/"
+                  class="header-social-list-item-link"
+                  target="_blank"
+                >
+                  <svg
+                    class="header-social-list-item-icon"
+                    width="28"
+                    height="28"
+                  >
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-social-list-item">
+                <a
+                  href="https://www.instagram.com/goitclub/"
+                  class="header-social-list-item-link"
+                  target="_blank"
+                >
+                  <svg
+                    class="header-social-list-item-icon"
+                    width="28"
+                    height="28"
+                  >
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-social-list-item">
+                <a
+                  href="https://www.youtube.com/c/GoIT"
+                  class="header-social-list-item-link"
+                  target="_blank"
+                >
+                  <svg
+                    class="header-social-list-item-icon"
+                    width="28"
+                    height="28"
+                  >
+                    <use href="./images/sprite.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <!-- BURGER BUTTON -->
+            <button class="header-burger-btn" type="button">
+              <svg class="header-burger-btn-icon" width="44" height="30">
+                <use href="./img/sprite.svg#icon-burger"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
